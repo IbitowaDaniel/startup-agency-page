@@ -17,7 +17,7 @@ const NumberedFunction = () => {
         <div>
           <div className='text-center mt-24'>
             <p className="uppercase text-white opacity-70 text-xs md:text-base font-bold mb-3 tracking-widest">Whats the function</p>
-            <h3 className="font-semibold text-2xl sm:text-3xl lg:text-4xl text-white">Let's see how it works</h3>
+            <h3 className="font-semibold text-2xl sm:text-3xl lg:text-4xl text-white">Let&apos;s see how it works</h3>
           </div>
 
           <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-12 text-center sm:grid-cols-2 lg:grid-cols-4">

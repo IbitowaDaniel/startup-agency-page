@@ -21,7 +21,8 @@ const Features = () => {
                 <Image
                   className="w-20 h-20 lg:w-28 lg:h-24"
                   src={productfeatures.img}
-                  alt="" />
+                  alt=""
+                />
                 <div>
                   <h4 className="font-semibold text-lg text-gray-900">{productfeatures.title}</h4>
                   <p className="text-gray-600 mt-2 leading-7">{productfeatures.text}</p>
@@ -62,6 +63,7 @@ const Features = () => {
         <Image
           src={shapepattern2}
           className=""
+          alt=""
         />
       </div>
     </section>

@@ -31,15 +31,17 @@ const Hero = () => {
           <Image
             src={shapeleft}
             className="absolute left-0 bottom-5 w-auto h-[80%] xs:bottom-6 sm:bottom-8 md:bottom-10 lg:h-full"
+            alt=""
           />
           <Image
             src={template1_img}
             className="max-w-full z-10 md:max-w-[720px] lg:max-w-4xl"
-            alt="banner"
+            alt="banner-image"
           />
           <Image
-          src={shaperight}
-          className="absolute right-0 bottom-8 w-auto h-[60%] xs:bottom-10 sm:bottom-12 md:h-[80%] lg:h-[full]"
+            src={shaperight}
+            className="absolute right-0 bottom-8 w-auto h-[60%] xs:bottom-10 sm:bottom-12 md:h-[80%] lg:h-[full]"
+            alt=""
           />
         </div>
       </div>

@@ -72,7 +72,7 @@ const Blog = () => {
                   {BlogData.map((item) => (
                     <div key={item.id} className="rounded-lg shadow-md mt-5 mb-8 mx-4 xs:mx-auto max-w-full xs:max-w-sm sm:max-w-[300px] md:max-w-[340px] lg:max-w-[300px] xl:max-w-[340px]">
                       <div className="rounded-t-lg overflow-hidden flex">
-                        <Image src={item.imgSrc} className="w-full" />
+                        <Image src={item.imgSrc} className="w-full" alt="blog-thumbnails" />
                       </div>
 
                       <div className="flex flex-col justify-between px-5 py-3.5 xs:py-6 xs:px-8">

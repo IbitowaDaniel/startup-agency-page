@@ -41,6 +41,7 @@ const Services = () => {
             <Image
               src={shapepattern1}
               className="hidden lg:inline-block absolute -bottom-14 -left-40"
+              alt=""
             />
           </div>
 

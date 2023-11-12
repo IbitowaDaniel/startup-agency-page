@@ -20,7 +20,7 @@ const Footer = () => {
         <hr />
         <div className="mt-12">
           <div className="flex items-center justify-center h-4 pb-4">
-            <Image src={templatelogo} className="w-28 xs:w-48" />
+            <Image src={templatelogo} className="w-28 xs:w-48" alt="logo" />
           </div>
 
           <ul className="flex justify-center gap-x-4 sm:gap-x-10 list-none mt-4 flex-wrap leading-10">

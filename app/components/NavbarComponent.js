@@ -115,7 +115,7 @@ export default function NavbarComponent({ headerId, headerStyles}) {
                 <Image
                   className="w-28 xs:w-36 md:w-40 xl:w-48"
                   src={templatelogo}
-                  alt=""
+                  alt="logo"
                 />
               </Link>
             </div>

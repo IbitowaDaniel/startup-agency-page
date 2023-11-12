@@ -76,7 +76,10 @@ const Testimonial = () => {
                       <div className='flex gap-x-4 mt-8'>
                         <div>
                           <Image
-                            src={c.avatar} /> </div>
+                            src={c.avatar}
+                            alt="avatar_img"
+                          />
+                        </div>
                         <div>
                           <h4 className='font-bold text-text'>{c.name}</h4>
                           <p className='text-red font-semibold'>{c.designation}</p>
