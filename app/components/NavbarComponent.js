@@ -49,7 +49,7 @@ export default function NavbarComponent({ headerId, headerStyles}) {
             <div className="fixed inset-0 bg-black bg-opacity-30" />
           </Transition.Child>
 
-          <div className="fixed inset-0 z-40 flex">
+          <div className="fixed inset-0 z-40 max-h-screen flex">
             <Transition.Child
               as={Fragment}
               enter="transition ease-in-out duration-300 transform"
@@ -59,7 +59,7 @@ export default function NavbarComponent({ headerId, headerStyles}) {
               leaveFrom="translate-x-0"
               leaveTo="-translate-x-full"
             >
-              <Dialog.Panel className="relative flex max-w-xs flex-col overflow-y-auto bg-white pb-12 px-4 shadow-xl w-80">
+              <Dialog.Panel className="relative flex max-w-xs flex-col overflow-y-hidden bg-white min-h-screen max-h-screen pb-12 px-4 shadow-xl w-80">
                 <div className="flex px-4 pb-2 pt-5 justify-end">
                   <button
                     type="button"

@@ -20,7 +20,7 @@ const Header = () => {
 
   const scrollFunction = () => {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("stickyNavbar").style = "position:fixed; width: 100%; top:0; background: white; display:block; transition: 0.6s; z-index: 9999;"
+      document.getElementById("stickyNavbar").style = "position:fixed; width: 100%; top:0; background: white; display:block; transition: 0.6s; z-index: 30;"
     } else {
       document.getElementById("stickyNavbar").style = "top:-100px; transition: 0.6s;";
     }
