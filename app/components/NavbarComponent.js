@@ -29,7 +29,7 @@ const SocialLinks = [
   },
 ];
 
-export default function NavbarComponent({ headerId, headerStyles}) {
+export default function NavbarComponent({ headerId, headerStyles }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -91,12 +91,14 @@ export default function NavbarComponent({ headerId, headerStyles}) {
                   </div>
                 </div>
                 {/* Social Links */}
-                <div className='flex items-center justify-center gap-x-4 mt-20'>
-                  {SocialLinks.map((item, id) => (
-                    <div key={id} className='text-[#343D48] cursor-pointer hover:text-blue'>
-                      <Link to={item.path}>{item.icon}</Link>
-                    </div>
-                  ))}
+                <div className='absolute w-[18rem] bottom-[3rem]'>
+                  <div className='flex items-center justify-center gap-x-4'>
+                    {SocialLinks.map((item, id) => (
+                      <div key={id} className='text-[#343D48] cursor-pointer hover:text-blue'>
+                        <Link to={item.path}>{item.icon}</Link>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </Dialog.Panel>
             </Transition.Child>
