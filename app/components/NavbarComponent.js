@@ -92,7 +92,7 @@ export default function NavbarComponent({ headerId, headerStyles }) {
                 </div>
                 {/* Social Links */}
                 <div className='absolute w-[18rem] bottom-0'>
-                  <div className='flex items-center justify-center gap-x-4 mb-[10vh]'>
+                  <div className='flex items-center justify-center gap-x-4 mb-[20vh]'>
                     {SocialLinks.map((item, id) => (
                       <div key={id} className='text-[#343D48] cursor-pointer hover:text-blue'>
                         <Link to={item.path}>{item.icon}</Link>
