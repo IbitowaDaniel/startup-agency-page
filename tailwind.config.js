@@ -12,9 +12,6 @@ module.exports = {
         blue: "#2563ff",
         grey: "#234582"
       },
-      fontFamily: {
-        'DM': ['"DM Sans"', "sans-serif"],
-      },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },
