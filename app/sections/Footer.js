@@ -34,6 +34,7 @@ const Footer = () => {
             Copyright by {new Date().getFullYear()}
             <a
               href="https://daniel-ibitowa.vercel.app"
+              target="_blank"
             >Daniel Ibitowa</a>, Inc</div>
 
         </div>
