@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="text-center text-[#343D48] mt-4 !-mb-12">
             Copyright by {new Date().getFullYear()}
             <a
-              href="daniel-ibitowa.vercel.app"
+              href="https://daniel-ibitowa.vercel.app"
             >Daniel Ibitowa</a>, Inc</div>
 
         </div>
