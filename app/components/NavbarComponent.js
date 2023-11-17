@@ -112,7 +112,9 @@ export default function NavbarComponent({ headerId, headerStyles }) {
           <div className="flex h-16 py-9 items-center">
             {/* Logo */}
             <div className="ml-0 flex lg:ml-0">
-              <a href="daniel-ibitowa.vercel.app">
+              <a
+                href="https://daniel-ibitowa.vercel.app"
+                target='_blank'>
                 <span className="sr-only">Agency Page Logo</span>
                 <Image
                   className="w-28 xs:w-36 md:w-40 xl:w-48"
